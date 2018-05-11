@@ -10,7 +10,7 @@ $(document).ready(function(){
 $( window ).scroll(function(){
       if($(window).scrollTop() + $(window).height() == $( document ).height()) //Comprobar que es el final de la página
 	  		{ //función que se ejecuta (leer json y añadir html)
-            {$.getJSON('https://cdn.rawgit.com/mfers29/proyectoFinal/afdba6f1/data/'+i+'.json',function(noticias) //carga i.json
+            {$.getJSON('https://cdn.rawgit.com/mfers29/proyectoFinal/2830860d/data/'+i+'.json',function(noticias) //carga i.json
 	
 		{
 		$('#noticias').append(
