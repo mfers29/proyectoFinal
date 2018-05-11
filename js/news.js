@@ -18,7 +18,7 @@ $(document).ready(function(){
 //Evento de hacer click el boton
 $( "#botonCargar" ).click(function(){alert("Prueba click")});
 
-$.getJSON('prueba.json',function(noticias){alert(noticias.contenido[1].titulo)});
+$.getJSON('https://rawgit.com/mfers29/proyectoFinal/master/js/prueba.json',function(noticias){alert(noticias.contenido[1].titulo)});
  
    
 	
