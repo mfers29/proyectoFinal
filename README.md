@@ -1,20 +1,20 @@
 ## Proyecto Final L.M 17/18  
 
 **Primero he dibujado en el cuaderno la maquetación de las dos plantillas que requiere la tarea.  
-La maquetación de la plantilla _news.html_ es la siguiente:  
+La maquetación de la plantilla _news.html_ es la siguiente:  **
 
 ![Diseño de news.html](/img_readme/news_html_design.JPG)  
 
-**El esquema de contenedores de la plantilla _news.html_ es el siguiente:  
+**El esquema de contenedores de la plantilla _news.html_ es el siguiente:  **
 
 ![Esquema 1 de news.html](/img_readme/news_html_schema1.JPG)
 ![Esquema 2 de news.html](/img_readme/news_html_schema2.JPG)  
 
-**La maquetación de la plantilla de una sola noticia, _newsX.html_ es la siguiente:  
+**La maquetación de la plantilla de una sola noticia, _newsX.html_ es la siguiente:  **
 
 ![Diseño de news1.html](/img_readme/news_1_design.JPG)  
 
-**El esquema de contenedores de la plantilla _newsX.html_ es el siguiente:  
+**El esquema de contenedores de la plantilla _newsX.html_ es el siguiente:  **
 
 ![Esquema 1 de news1.html](/img_readme/news_1_schema1.JPG)
 ![Esquema 2 de news1.html](/img_readme/news_1_schema2.JPG)  
