@@ -26,7 +26,14 @@ body {
 	padding-right:20px;
 	text-align:justify;
 	margin-top:20px;
-	color:#CCC
+	color:#CCC;
+	}
+	
+#noticias2{
+	padding-right:20px;
+	text-align:justify;
+	margin-top:20px;
+	color:#CCC;
 	}
 
 #boton{
@@ -50,8 +57,11 @@ body {
 
 @media screen and (min-width: 768px){   
     #noticias{
-		padding-right:360px
+		padding-right:360px;
 	}
+	 #noticias2{
+		padding-right:360px;
+	 }
     #publipc{
 		position:absolute;
 		right:0px;
