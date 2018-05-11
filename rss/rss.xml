@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<rss version="0.91">
+
+<channel>
+<title>News News</title> 
+<link>https://cdn.rawgit.com/mfers29/proyectoFinal/ba8a4757/news.html</link> 
+<description>Actualidad y noticias del día a díasin trampa ni cartón, tal y como suenan.</description> 
+<language>es-ES</language>
+
+<item>
+<title>Noticias</title> 
+<link>https://cdn.rawgit.com/mfers29/proyectoFinal/ba8a4757/news.html</link> 
+<description>
+Actualidad y noticias del día a día sin trampa ni cartón, tal y como suenan.
+</description> 
+</item>
+
+</channel>
+</rss>
