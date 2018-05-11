@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News News</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/pc.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/news.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- BARRA DE NAVEGACIÓN -->
+<nav class="navbar navbar-inverse"> <!-- Quitar el fixed top si no queda bien e intentar hacerla colapsable en la versión móvil -->
+	<div class="container-fluid">
+    	<div class="navbar-header">
+        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#miBarra">
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>                        
+      		</button>
+      		<p class="navbar-brand">News News</p>
+    	</div>
+        <div class="collapse navbar-collapse" id="miBarra">
+    	<ul class="nav navbar-nav">
+      		<li class="active"><a href="#">Home</a></li>
+      		<li><a href="#widgets">Widgets</a></li>
+      		<li><a href="#noticias">Noticias</a></li>
+      		<li><a href="#info">Información</a></li>
+    	</ul>
+        <ul class="nav navbar-nav navbar-right">
+      		<li><a href="#"><span class="glyphicon glyphicon-user"></span>  Registro</a></li>
+      		<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>  Acceso Usuarios</a></li>
+    	</ul>
+  		</div>
+    </div>
+</nav>
+
+<!-- ENCABEZADO -->
+<div class="jumbotron text-center">
+  <h1>News News</h1>
+  <h3 class="display-4">Actualidad y noticias del <strong>día a día</strong> sin trampa ni cartón, tal y como suenan.</h3> 
+</div>
+
+<!-- WIDGETS-->
+<div class="container-fluid" id="widgets">
+	<div class="row">
+    	<div class="col-sm-4">
+        <a title="El tráfico" href="http://infocar.dgt.es/etraffic/"><img class="img-responsive" src="img/trafico.jpg" alt="El tráfico" /></a>
+        </div>
+        <div class="col-sm-4">
+        <a title="El tiempo" href="https://www.eltiempo.es"><img class="img-responsive" src="img/tiempo.jpg" alt="El tiempo" /></a>
+        </div>
+        <div class="col-sm-4">
+        <a title="Vuelos" href="http://www.aena.es/csee/Satellite/infovuelos/es/"><img class="img-responsive" src="img/infovuelos.jpg" alt="Vuelos" /></a>
+        </div>
+    </div>
+</div>
+
+<!-- SECCIONES-->
+<div class="container-fluid" id="noticias">
+	<div id="publipc">
+    	<p> Publicidad  Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad Publicidad </p>
+    </div>
+    
+    <h1 id="titulonoticias"><strong>Sección de Noticias</strong></h1>
+    
+    <!-- Noticia 1 -->
+    <div class="row">
+    	<div class="col-md-4">
+            <img src="img/bt.jpg" alt="Agua" class="img-responsive">
+         </div>
+         <div class="col-md-8">
+            <h3>Debemos malgastar menos <strong> AGUA.</strong></h3>
+            <p> Se avecinan tiempos difíciles para el ser humano, los recursos hídricos son cada vez más escasos.</p>
+			<p>El agua es el recurso mas valioso que podemos tener en este mundo, es el origen de la vida y todos dependemos de ella, tanto para salud y bienestar humano! debido a la contaminación... <a title="Pulse aquí para ver más" href="news1.html">Continuar leyendo</a></p>
+         </div>
+      </div> 
+    <!-- Noticia 2 -->  
+	<div class="row">
+    	 <div class="col-md-8">
+            <h3><strong>Separar para reciclar.</strong></h3>
+            <p>Clasificar la basura correctamente es fundamental para depositarlos luego en el lugar correspondiente.</p>
+			<p>Por lo tanto, antes de dirigirnos al contenedor de tal o cual color, hacer un reciclaje correcto comienza en casa o en el lugar de trabajo, como la oficina o en un negocio, pongamos por caso... <a title="Pulse aquí para ver más" href="news2.html">Continuar leyendo</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="img/img2.png" alt="Mano" class="img-responsive">
+        </div>
+     </div> 
+    <!-- Noticia 3 -->  
+    <div class="row">
+    	<div class="col-md-4">
+            <img src="img/ll.jpg" alt="" class="img-responsive">
+         </div>
+         <div class="col-md-8">
+            <h3>Lluvia ácida</h3>
+            <p>La lluvia ácida es una de las consecuencias de la contaminación atmosférica. Se produce cuando las emisiones contaminantes de las fábricas, automóviles o calderas de calefacción entran en contacto con la humedad de la atmósfera. Estas emisiones contienen óxidos de nitrógeno, dióxido de azufre y trióxido de azufre, que al mezclarse con agua se transforman en ácido sulfuroso, ácido nítrico y ácido sulfúrico. Este proceso también sucede de forma natural a través de las erupciones volcánicas.<a title="Pulse aquí para ver más" href="#">Continuar leyendo</a></p>
+         </div>
+    </div>
+    <!-- Plantilla para cargar más desde json-->
+    <div class="row">
+    	<div class="col-md-4" id="plantillaImagen">
+            <img src="#" alt="#" class="img-responsive">
+         </div>
+         <div class="col-md-8" id="plantillaNoticia">
+            <h3 id="title">{{title}}</h3>
+            <p id="description">{{description}}</p>
+         </div>
+    </div>
+
+</div>
+<!-- Boton para cargar más noticias -->
+<div class="container-fluid" id="boton">
+<button type="button" class="btn btn-default btn-block" id="botonCargar">Cargar más noticias</button>
+</div>
+
+<!-- Footer -->
+<footer class="footer" id="info"> 
+    <div class="container"> 
+        <ul class="footer-links"> 
+            <li><a href="www.facebook.com">Facebook</a></li><br> 
+            <li><a href="#">About</a></li> 
+        </ul> 
+        <p>Mfers29
+        </p> 
+    </div> 
+</footer>
+
+</body>
+
+</html>
