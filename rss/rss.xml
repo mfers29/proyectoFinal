@@ -15,5 +15,21 @@ Actualidad y noticias del día a día sin trampa ni cartón, tal y como suenan.
 </description> 
 </item>
 
+  <item>
+<title>Noticias</title> 
+<link>https://cdn.rawgit.com/mfers29/proyectoFinal/266aafa3/news1.html</link> 
+<description>
+Bloque de noticias fecha 1
+</description> 
+</item>
+  
+  <item>
+<title>Noticias</title> 
+<link>https://cdn.rawgit.com/mfers29/proyectoFinal/266aafa3/news2.html</link> 
+<description>
+Bloque de noticias fecha 2
+</description> 
+</item>
+  
 </channel>
 </rss>
