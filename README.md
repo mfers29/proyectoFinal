@@ -7,8 +7,8 @@ La maquetación de la plantilla _news.html_ es la siguiente:**
 
 **El esquema de contenedores de la plantilla _news.html_ es el siguiente:**  
 
-![Esquema 1 de news.html](/img_readme/news_html_schema1.JPG)
-![Esquema 2 de news.html](/img_readme/news_html_schema2.JPG)  
+![Esquema 1 de news.html](/img_readme/news_html_schema_1.JPG)
+![Esquema 2 de news.html](/img_readme/news_html_schema_2.JPG)  
 
 **La maquetación de la plantilla de una sola noticia, _newsX.html_ es la siguiente:**  
 
@@ -37,17 +37,7 @@ Al final de la página se ha colocado un enlace al fichero rss.xml así como el 
 
 En cada página se han incluido las etiquetas meta con OpenGraph para compartir en FaceBook:  
 * Descripción
-* Imágen
+* Imagen
 * Nombre de la aplicación
 * Url de la página
-
-
-  
-
-
-
-
-
-
-
 
